@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Rajdeep Dua "dua_rajdeep@yahoo.com"
+MAINTAINER Oscar Deits "odeits@vidder.com"
 RUN apt-get update -y && apt-get install -y python3-pip python3-dev build-essential graphviz && apt-get clean
 RUN pip3 install --upgrade pip3
 COPY . /app
